@@ -30,9 +30,3 @@ The manual for developer is available online, and embeded in the framework as He
 
 - For local development you'll need Eclipse or Netbeans installed and tomcat. 
 - Follow the instruction for local instalation on eclipe <a href="https://www.youtube.com/watch?v=-Verby5QJ14&t=31s" target="_blank"> Here</a>
-
-
-
-
-
-
