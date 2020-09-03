@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Components_that_need_fields</page>
+    <app>catalogo_igrp</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.catalogo_igrp.pages</package_db>
+        <package_html>Components_that_need_fields</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=206</preserve_url>
+    </plsql>
+    <slide-menu file="../images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="../images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Fields in components</title>
+        <form_1 type="form" xml-type="form" title="Form" gen-type="container" gen-group="">
+            <fields>
+                <form_1_checkbox_1 name="p_form_1_checkbox_1" type="checkbox" maxlength="250" required="false" change="false" readonly="false" disabled="false" right="false" switch="true" java-type="int" check="true">
+                    <label>Checkbox</label>
+                    <value>1</value>
+                </form_1_checkbox_1>
+                <form_1_checkboxlist_1 name="p_form_1_checkboxlist_1" type="checkboxlist" domain="Melani" maxlength="250" required="false" change="false" readonly="false" disabled="false" child_size="6" right="false" java-type="">
+                    <label>Checkboxlist</label>
+                    <list>
+                        <option>
+                            <text>barral</text>
+                            <value>tre</value>
+                        </option>
+                        <option>
+                            <text>te</text>
+                            <value>te</value>
+                        </option>
+                        <option>
+                            <text>Novo</text>
+                            <value>rafsagg</value>
+                        </option>
+                        <option>
+                            <text>Guardar</text>
+                            <value>new</value>
+                        </option>
+                    </list>
+                </form_1_checkboxlist_1>
+                <form_1_color_1 name="p_form_1_color_1" type="color" format="hex" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="Pick color" right="false" desclabel="false">
+                    <label>Color</label>
+                    <value>#12e597</value>
+                </form_1_color_1>
+                <form_1_date_1 name="p_form_1_date_1" type="date" range="false" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" class="success" desclabel="false">
+                    <label>Date</label>
+                    <value>05-08-2010</value>
+                </form_1_date_1>
+                <form_1_email_1 name="p_form_1_email_1" type="email" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="c" right="false" desclabel="false">
+                    <label>Email</label>
+                    <value>gozi@example.com</value>
+                </form_1_email_1>
+                <hyperlink name="p_hyperlink" type="link" target="_self" request_fields="" target_fields="" closerefresh="false" action="index" page="Components_that_need_fields" app="catalogo_igrp" custom_action="" action_type="false" class="black" btnSize="" iconColor="#333" iconClass="" img="fa-link" maxlength="250" placeholder="" right="false" refresh_submit="false" desclabel="false" refresh_components="">
+                    <label>HyperLink</label>
+                    <value>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</value>
+                </hyperlink>
+                <form_1_img_1 name="p_form_1_img_1" type="img" persist="true" img="/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg" width="" height="" croppie="false" rounded="false" maxlength="250" placeholder="" right="false" autoupload="false" desclabel="false">
+                    <label>Img</label>
+                    <value>/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</value>
+                </form_1_img_1>
+                <form_1_lookup_1 name="p_form_1_lookup_1" type="lookup" action="index" page="Components_that_need_fields" app="catalogo_igrp" lookup_type="LOOKUP" class="purple" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" lookup_eraser="false" desclabel="false">
+                    <label>Lookup</label>
+                    <value/>
+                    <lookup>../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</lookup>
+                    <lookupParams/>
+                </form_1_lookup_1>
+                <form_1_number_1 name="p_form_1_number_1" type="number" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" java-type="" min="" max="" desclabel="false">
+                    <label>Number</label>
+                    <value>200</value>
+                </form_1_number_1>
+                <form_1_password_1 name="p_form_1_password_1" type="password" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false">
+                    <label>Password</label>
+                    <value>******</value>
+                </form_1_password_1>
+                <form_1_plaintext_1 name="p_form_1_plaintext_1" type="plaintext" clear="false" maxlength="250" right="false" disable_output_escaping="false" html_class="">
+                    <label>Plaintext</label>
+                    <value>Rem laudantium amet stract perspiciatis ut mollit consectetur ipsum sit perspiciatis magna ut aliqua natus stract voluptatem sit omnis stract mollit unde laudantium accusantium labore</value>
+                </form_1_plaintext_1>
+                <form_1_radio_1 name="p_form_1_radio_1" type="radio" maxlength="250" required="false" change="false" readonly="false" disabled="false" right="false" java-type="" check="true">
+                    <label>Radio</label>
+                    <value>1</value>
+                </form_1_radio_1>
+                <form_1_radiolist_1 name="p_form_1_radiolist_1" type="radiolist" domain="MArcos" maxlength="250" required="false" change="false" readonly="false" disabled="false" child_size="6" right="false" java-type="">
+                    <label>Radiolist</label>
+                    <list>
+                        <option>
+                            <text>kjokj</text>
+                            <value>ghgulhu</value>
+                        </option>
+                        <option>
+                            <text>kgh</text>
+                            <value>hgjh</value>
+                        </option>
+                    </list>
+                </form_1_radiolist_1>
+                <form_1_range_1 name="p_form_1_range_1" type="range" rangeMin="0" rangeMax="10" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false">
+                    <label>Range</label>
+                    <value>8</value>
+                </form_1_range_1>
+                <form_1_select_1 name="p_form_1_select_1" type="select" multiple="false" tags="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="">
+                    <label>Select</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </form_1_select_1>
+                <form_1_separator_1 name="p_form_1_separator_1" type="separator" maxlength="250" placeholder="" right="false" desclabel="false">
+                    <label>Separator</label>
+                </form_1_separator_1>
+                <form_1_text_1 name="p_form_1_text_1" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="diquei" right="false" desclabel="false">
+                    <label>Text</label>
+                    <value>Voluptatem rem laudantium labore dolor</value>
+                </form_1_text_1>
+                <form_1_textarea_1 name="p_form_1_textarea_1" type="textarea" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="dica area" right="false" desclabel="false">
+                    <label>Textarea</label>
+                    <value>Aperiam officia aliqua sit labore accusantium adipiscing deserunt aliqua deserunt voluptatem iste perspiciatis sed elit</value>
+                </form_1_textarea_1>
+                <form_1_texteditor_1 name="p_form_1_texteditor_1" type="texteditor" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false">
+                    <label>Texteditor</label>
+                    <value>Aliqua totam sit ut aperiam laudantium mollit voluptatem mollit unde voluptatem rem totam doloremque amet dolor ipsum totam ipsum sit</value>
+                </form_1_texteditor_1>
+                <form_1_time_1 name="p_form_1_time_1" type="time" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false">
+                    <label>Time</label>
+                    <value>15:18</value>
+                </form_1_time_1>
+                <form_1_file_1 name="p_form_1_file_1" type="file" accept="" targetrend="" multiple="true" rendvalue="true" maxlength="250" required="false" disabled="false" right="false" class="danger">
+                    <label>File</label>
+                    <value/>
+                </form_1_file_1>
+                <form_1_virtualkeyboard_1 name="p_form_1_virtualkeyboard_1" type="virtualkeyboard" keyType="vkb_aznum" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="Baza dedu" right="false" desclabel="false">
+                    <label>Virtualkeyboard</label>
+                    <value/>
+                </form_1_virtualkeyboard_1>
+                <hidden name="p_hidden_tag_1" type="hidden" maxlength="250" java-type="" tag="hidden_tag_1"/>
+            </fields>
+            <tools-bar>../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</tools-bar>
+        </form_1>
+        <formlist_1 type="formlist" xml-type="formlist" title="Formlist" gen-clean="true" gen-type="container" gen-group="true">
+            <fields>
+                <formlist_1_button_1 name="p_formlist_1_button_1" type="button" target="_blank" request_fields="" target_fields="" closerefresh="false" action="206" service="[object Object]" transaction="false" custom_return="false" class="primary" iconColor="#333" iconClass="" img="fa-rocket" maxlength="250" right="false" list_source="" refresh_submit="false" refresh_components="" desc="true">
+                    <label>Button</label>
+                </formlist_1_button_1>
+                <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" type="checkbox" maxlength="250" required="false" change="false" readonly="false" disabled="false" right="false" java-type="int" check="true" desc="true">
+                    <label>Checkbox</label>
+                </formlist_1_checkbox_1>
+                <formlist_1_color_1 name="p_formlist_1_color_1" type="color" format="hex" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Color</label>
+                </formlist_1_color_1>
+                <separatorlist_1_date_1 name="p_separatorlist_1_date_1" type="date" range="false" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" class="primary" desclabel="false" desc="true">
+                    <label>Date</label>
+                </separatorlist_1_date_1>
+                <formlist_1_email_1 name="p_formlist_1_email_1" type="email" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Email</label>
+                </formlist_1_email_1>
+                <formlist_1_lookup_1 name="p_formlist_1_lookup_1" type="lookup" action="index" page="Components_that_need_fields" app="catalogo_igrp" lookup_type="LOOKUP" class="primary" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" lookup_eraser="false" desclabel="false" desc="true">
+                    <label>Lookup</label>
+                    <lookup>../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</lookup>
+                    <lookupParams is-table="true"/>
+                </formlist_1_lookup_1>
+                <formlist_1_link_1 name="p_formlist_1_link_1" type="link" target="_self" request_fields="" target_fields="" closerefresh="false" action="index" page="Group_components" app="catalogo_igrp" custom_action="" action_type="false" class="link" btnSize="" iconColor="#333" iconClass="" img="fa-link" maxlength="250" placeholder="" right="false" list_source="" refresh_submit="false" desclabel="false" refresh_components="" desc="true">
+                    <label>Link</label>
+                </formlist_1_link_1>
+                <formlist_2_number_1 name="p_formlist_2_number_1" type="number" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" java-type="" min="" max="" desclabel="false" total_col="false" total_row="false" totalrow="false" desc="true">
+                    <label>Number</label>
+                </formlist_2_number_1>
+                <formlist_2_password_1 name="p_formlist_2_password_1" type="password" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Password</label>
+                </formlist_2_password_1>
+                <formlist_1_hidden_1 name="p_formlist_1_hidden_1" type="hidden" maxlength="250" java-type="" tag="formlist_1_hidden_1" desc="true"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <formlist_1_button_1 name="p_formlist_1_button_1" desc="true"/>
+                        <formlist_1_button_1_desc name="p_formlist_1_button_1_desc"/>
+                        <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" check="true" desc="true">1</formlist_1_checkbox_1>
+                        <formlist_1_checkbox_1_desc name="p_formlist_1_checkbox_1_desc">1</formlist_1_checkbox_1_desc>
+                        <formlist_1_color_1 name="p_formlist_1_color_1" desc="true">#b8d14d</formlist_1_color_1>
+                        <formlist_1_color_1_desc name="p_formlist_1_color_1_desc">#b8d14d</formlist_1_color_1_desc>
+                        <separatorlist_1_date_1 name="p_separatorlist_1_date_1" desc="true">08-02-2011</separatorlist_1_date_1>
+                        <separatorlist_1_date_1_desc name="p_separatorlist_1_date_1_desc">08-02-2011</separatorlist_1_date_1_desc>
+                        <formlist_1_email_1 name="p_formlist_1_email_1" desc="true">kupga@example.com</formlist_1_email_1>
+                        <formlist_1_email_1_desc name="p_formlist_1_email_1_desc">kupga@example.com</formlist_1_email_1_desc>
+                        <formlist_1_lookup_1 name="p_formlist_1_lookup_1" desc="true"/>
+                        <formlist_1_lookup_1_desc name="p_formlist_1_lookup_1_desc"/>
+                        <formlist_1_link_1 name="p_formlist_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</formlist_1_link_1>
+                        <formlist_1_link_1_desc name="p_formlist_1_link_1_desc">Link</formlist_1_link_1_desc>
+                        <formlist_2_number_1 name="p_formlist_2_number_1" desc="true">31</formlist_2_number_1>
+                        <formlist_2_number_1_desc name="p_formlist_2_number_1_desc">31</formlist_2_number_1_desc>
+                        <formlist_2_password_1 name="p_formlist_2_password_1" desc="true">******</formlist_2_password_1>
+                        <formlist_2_password_1_desc name="p_formlist_2_password_1_desc">******</formlist_2_password_1_desc>
+                        <formlist_1_hidden_1 name="p_formlist_1_hidden_1" tag="formlist_1_hidden_1" desc="true">hidden-373b_8eb3</formlist_1_hidden_1>
+                        <formlist_1_hidden_1_desc name="p_formlist_1_hidden_1_desc">hidden-373b_8eb3</formlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <formlist_1_button_1 name="p_formlist_1_button_1" desc="true"/>
+                        <formlist_1_button_1_desc name="p_formlist_1_button_1_desc"/>
+                        <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" check="true" desc="true">1</formlist_1_checkbox_1>
+                        <formlist_1_checkbox_1_desc name="p_formlist_1_checkbox_1_desc">1</formlist_1_checkbox_1_desc>
+                        <formlist_1_color_1 name="p_formlist_1_color_1" desc="true">#94248d</formlist_1_color_1>
+                        <formlist_1_color_1_desc name="p_formlist_1_color_1_desc">#94248d</formlist_1_color_1_desc>
+                        <separatorlist_1_date_1 name="p_separatorlist_1_date_1" desc="true">02-01-2013</separatorlist_1_date_1>
+                        <separatorlist_1_date_1_desc name="p_separatorlist_1_date_1_desc">02-01-2013</separatorlist_1_date_1_desc>
+                        <formlist_1_email_1 name="p_formlist_1_email_1" desc="true">emiziv@example.com</formlist_1_email_1>
+                        <formlist_1_email_1_desc name="p_formlist_1_email_1_desc">emiziv@example.com</formlist_1_email_1_desc>
+                        <formlist_1_lookup_1 name="p_formlist_1_lookup_1" desc="true"/>
+                        <formlist_1_lookup_1_desc name="p_formlist_1_lookup_1_desc"/>
+                        <formlist_1_link_1 name="p_formlist_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</formlist_1_link_1>
+                        <formlist_1_link_1_desc name="p_formlist_1_link_1_desc">Link</formlist_1_link_1_desc>
+                        <formlist_2_number_1 name="p_formlist_2_number_1" desc="true">79</formlist_2_number_1>
+                        <formlist_2_number_1_desc name="p_formlist_2_number_1_desc">79</formlist_2_number_1_desc>
+                        <formlist_2_password_1 name="p_formlist_2_password_1" desc="true">******</formlist_2_password_1>
+                        <formlist_2_password_1_desc name="p_formlist_2_password_1_desc">******</formlist_2_password_1_desc>
+                        <formlist_1_hidden_1 name="p_formlist_1_hidden_1" tag="formlist_1_hidden_1" desc="true">hidden-bb97_8a45</formlist_1_hidden_1>
+                        <formlist_1_hidden_1_desc name="p_formlist_1_hidden_1_desc">hidden-bb97_8a45</formlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <formlist_1_button_1 name="p_formlist_1_button_1" desc="true"/>
+                        <formlist_1_button_1_desc name="p_formlist_1_button_1_desc"/>
+                        <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" check="true" desc="true">1</formlist_1_checkbox_1>
+                        <formlist_1_checkbox_1_desc name="p_formlist_1_checkbox_1_desc">1</formlist_1_checkbox_1_desc>
+                        <formlist_1_color_1 name="p_formlist_1_color_1" desc="true">#dee354</formlist_1_color_1>
+                        <formlist_1_color_1_desc name="p_formlist_1_color_1_desc">#dee354</formlist_1_color_1_desc>
+                        <separatorlist_1_date_1 name="p_separatorlist_1_date_1" desc="true">05-03-2015</separatorlist_1_date_1>
+                        <separatorlist_1_date_1_desc name="p_separatorlist_1_date_1_desc">05-03-2015</separatorlist_1_date_1_desc>
+                        <formlist_1_email_1 name="p_formlist_1_email_1" desc="true">wirwi@example.com</formlist_1_email_1>
+                        <formlist_1_email_1_desc name="p_formlist_1_email_1_desc">wirwi@example.com</formlist_1_email_1_desc>
+                        <formlist_1_lookup_1 name="p_formlist_1_lookup_1" desc="true"/>
+                        <formlist_1_lookup_1_desc name="p_formlist_1_lookup_1_desc"/>
+                        <formlist_1_link_1 name="p_formlist_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</formlist_1_link_1>
+                        <formlist_1_link_1_desc name="p_formlist_1_link_1_desc">Link</formlist_1_link_1_desc>
+                        <formlist_2_number_1 name="p_formlist_2_number_1" desc="true">183</formlist_2_number_1>
+                        <formlist_2_number_1_desc name="p_formlist_2_number_1_desc">183</formlist_2_number_1_desc>
+                        <formlist_2_password_1 name="p_formlist_2_password_1" desc="true">******</formlist_2_password_1>
+                        <formlist_2_password_1_desc name="p_formlist_2_password_1_desc">******</formlist_2_password_1_desc>
+                        <formlist_1_hidden_1 name="p_formlist_1_hidden_1" tag="formlist_1_hidden_1" desc="true">hidden-8b0c_7def</formlist_1_hidden_1>
+                        <formlist_1_hidden_1_desc name="p_formlist_1_hidden_1_desc">hidden-8b0c_7def</formlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <formlist_1_button_1 name="p_formlist_1_button_1" desc="true"/>
+                        <formlist_1_button_1_desc name="p_formlist_1_button_1_desc"/>
+                        <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" check="true" desc="true">1</formlist_1_checkbox_1>
+                        <formlist_1_checkbox_1_desc name="p_formlist_1_checkbox_1_desc">1</formlist_1_checkbox_1_desc>
+                        <formlist_1_color_1 name="p_formlist_1_color_1" desc="true">#903d71</formlist_1_color_1>
+                        <formlist_1_color_1_desc name="p_formlist_1_color_1_desc">#903d71</formlist_1_color_1_desc>
+                        <separatorlist_1_date_1 name="p_separatorlist_1_date_1" desc="true">01-06-2013</separatorlist_1_date_1>
+                        <separatorlist_1_date_1_desc name="p_separatorlist_1_date_1_desc">01-06-2013</separatorlist_1_date_1_desc>
+                        <formlist_1_email_1 name="p_formlist_1_email_1" desc="true">bibjoos@example.com</formlist_1_email_1>
+                        <formlist_1_email_1_desc name="p_formlist_1_email_1_desc">bibjoos@example.com</formlist_1_email_1_desc>
+                        <formlist_1_lookup_1 name="p_formlist_1_lookup_1" desc="true"/>
+                        <formlist_1_lookup_1_desc name="p_formlist_1_lookup_1_desc"/>
+                        <formlist_1_link_1 name="p_formlist_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</formlist_1_link_1>
+                        <formlist_1_link_1_desc name="p_formlist_1_link_1_desc">Link</formlist_1_link_1_desc>
+                        <formlist_2_number_1 name="p_formlist_2_number_1" desc="true">239</formlist_2_number_1>
+                        <formlist_2_number_1_desc name="p_formlist_2_number_1_desc">239</formlist_2_number_1_desc>
+                        <formlist_2_password_1 name="p_formlist_2_password_1" desc="true">******</formlist_2_password_1>
+                        <formlist_2_password_1_desc name="p_formlist_2_password_1_desc">******</formlist_2_password_1_desc>
+                        <formlist_1_hidden_1 name="p_formlist_1_hidden_1" tag="formlist_1_hidden_1" desc="true">hidden-b8f9_428d</formlist_1_hidden_1>
+                        <formlist_1_hidden_1_desc name="p_formlist_1_hidden_1_desc">hidden-b8f9_428d</formlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <formlist_1_button_1 name="p_formlist_1_button_1" desc="true"/>
+                        <formlist_1_button_1_desc name="p_formlist_1_button_1_desc"/>
+                        <formlist_1_checkbox_1 name="p_formlist_1_checkbox_1" check="true" desc="true">1</formlist_1_checkbox_1>
+                        <formlist_1_checkbox_1_desc name="p_formlist_1_checkbox_1_desc">1</formlist_1_checkbox_1_desc>
+                        <formlist_1_color_1 name="p_formlist_1_color_1" desc="true">#1a07e8</formlist_1_color_1>
+                        <formlist_1_color_1_desc name="p_formlist_1_color_1_desc">#1a07e8</formlist_1_color_1_desc>
+                        <separatorlist_1_date_1 name="p_separatorlist_1_date_1" desc="true">01-04-2015</separatorlist_1_date_1>
+                        <separatorlist_1_date_1_desc name="p_separatorlist_1_date_1_desc">01-04-2015</separatorlist_1_date_1_desc>
+                        <formlist_1_email_1 name="p_formlist_1_email_1" desc="true">henekrup@example.com</formlist_1_email_1>
+                        <formlist_1_email_1_desc name="p_formlist_1_email_1_desc">henekrup@example.com</formlist_1_email_1_desc>
+                        <formlist_1_lookup_1 name="p_formlist_1_lookup_1" desc="true"/>
+                        <formlist_1_lookup_1_desc name="p_formlist_1_lookup_1_desc"/>
+                        <formlist_1_link_1 name="p_formlist_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</formlist_1_link_1>
+                        <formlist_1_link_1_desc name="p_formlist_1_link_1_desc">Link</formlist_1_link_1_desc>
+                        <formlist_2_number_1 name="p_formlist_2_number_1" desc="true">162</formlist_2_number_1>
+                        <formlist_2_number_1_desc name="p_formlist_2_number_1_desc">162</formlist_2_number_1_desc>
+                        <formlist_2_password_1 name="p_formlist_2_password_1" desc="true">******</formlist_2_password_1>
+                        <formlist_2_password_1_desc name="p_formlist_2_password_1_desc">******</formlist_2_password_1_desc>
+                        <formlist_1_hidden_1 name="p_formlist_1_hidden_1" tag="formlist_1_hidden_1" desc="true">hidden-dcfa_6456</formlist_1_hidden_1>
+                        <formlist_1_hidden_1_desc name="p_formlist_1_hidden_1_desc">hidden-dcfa_6456</formlist_1_hidden_1_desc>
+                    </row>
+                </value>
+            </table>
+        </formlist_1>
+        <formlist_2 type="formlist" xml-type="formlist" title="Formlist Part 2" gen-clean="true" gen-type="container" gen-group="true">
+            <fields>
+                <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" type="plaintext" maxlength="250" right="false" disable_output_escaping="false" html_class="" desc="true">
+                    <label>Plaintext</label>
+                </formlist_1_plaintext_1>
+                <formlist_2_radio_1 name="p_formlist_2_radio_1" type="radio" maxlength="250" required="false" change="false" readonly="false" disabled="false" right="false" java-type="" check="true" desc="true">
+                    <label>Radio</label>
+                </formlist_2_radio_1>
+                <formlist_2_range_1 name="p_formlist_2_range_1" type="range" rangeMin="0" rangeMax="10" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Range</label>
+                </formlist_2_range_1>
+                <formlist_2_select_1 name="p_formlist_2_select_1" type="select" multiple="false" tags="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" delimiter=";" desc="true">
+                    <label>Select</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </formlist_2_select_1>
+                <formlist_2_text_1 name="p_formlist_2_text_1" type="text" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="Hint" right="false" desclabel="false" desc="true">
+                    <label>Text</label>
+                </formlist_2_text_1>
+                <formlist_2_textarea_1 name="p_formlist_2_textarea_1" type="textarea" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="dica" right="false" desclabel="false" desc="true">
+                    <label>Textarea</label>
+                </formlist_2_textarea_1>
+                <formlist_2_time_1 name="p_formlist_2_time_1" type="time" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Time</label>
+                </formlist_2_time_1>
+                <formlist_2_file_1 name="p_formlist_2_file_1" type="file" accept="" targetrend="" multiple="false" rendvalue="false" maxlength="250" required="false" disabled="false" right="false" class="primary" desc="true">
+                    <label>File</label>
+                </formlist_2_file_1>
+                <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" type="virtualkeyboard" keyType="vkb_aznum" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="Digit here" right="false" desclabel="false" desc="true">
+                    <label>Virtualkeyboard</label>
+                </formlist_2_virtualkeyboard_1>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" desc="true">Aperiam accusantium unde totam sit</formlist_1_plaintext_1>
+                        <formlist_1_plaintext_1_desc name="p_formlist_1_plaintext_1_desc">Aperiam accusantium unde totam sit</formlist_1_plaintext_1_desc>
+                        <formlist_2_radio_1 name="p_formlist_2_radio_1" check="true" desc="true">1</formlist_2_radio_1>
+                        <formlist_2_radio_1_desc name="p_formlist_2_radio_1_desc">1</formlist_2_radio_1_desc>
+                        <formlist_2_range_1 name="p_formlist_2_range_1" desc="true">7</formlist_2_range_1>
+                        <formlist_2_range_1_desc name="p_formlist_2_range_1_desc">7</formlist_2_range_1_desc>
+                        <formlist_2_select_1 name="p_formlist_2_select_1" desc="true">2</formlist_2_select_1>
+                        <formlist_2_select_1_desc name="p_formlist_2_select_1_desc">2</formlist_2_select_1_desc>
+                        <formlist_2_text_1 name="p_formlist_2_text_1" desc="true">Anim totam lorem perspiciatis sit</formlist_2_text_1>
+                        <formlist_2_text_1_desc name="p_formlist_2_text_1_desc">Anim totam lorem perspiciatis sit</formlist_2_text_1_desc>
+                        <formlist_2_textarea_1 name="p_formlist_2_textarea_1" desc="true">Officia voluptatem deserunt iste officia omnis rem natus accusantium adipiscing perspiciatis voluptatem lorem voluptatem adipiscing</formlist_2_textarea_1>
+                        <formlist_2_textarea_1_desc name="p_formlist_2_textarea_1_desc">Officia voluptatem deserunt iste officia omnis rem natus accusantium adipiscing perspiciatis voluptatem lorem voluptatem adipiscing</formlist_2_textarea_1_desc>
+                        <formlist_2_time_1 name="p_formlist_2_time_1" desc="true">18:03</formlist_2_time_1>
+                        <formlist_2_time_1_desc name="p_formlist_2_time_1_desc">18:03</formlist_2_time_1_desc>
+                        <formlist_2_file_1 name="p_formlist_2_file_1" desc="true"/>
+                        <formlist_2_file_1_desc name="p_formlist_2_file_1_desc"/>
+                        <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" desc="true"/>
+                        <formlist_2_virtualkeyboard_1_desc name="p_formlist_2_virtualkeyboard_1_desc"/>
+                    </row>
+                    <row>
+                        <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" desc="true">Aliqua adipiscing amet elit ut</formlist_1_plaintext_1>
+                        <formlist_1_plaintext_1_desc name="p_formlist_1_plaintext_1_desc">Aliqua adipiscing amet elit ut</formlist_1_plaintext_1_desc>
+                        <formlist_2_radio_1 name="p_formlist_2_radio_1" check="true" desc="true">1</formlist_2_radio_1>
+                        <formlist_2_radio_1_desc name="p_formlist_2_radio_1_desc">1</formlist_2_radio_1_desc>
+                        <formlist_2_range_1 name="p_formlist_2_range_1" desc="true">2</formlist_2_range_1>
+                        <formlist_2_range_1_desc name="p_formlist_2_range_1_desc">2</formlist_2_range_1_desc>
+                        <formlist_2_select_1 name="p_formlist_2_select_1" desc="true">2</formlist_2_select_1>
+                        <formlist_2_select_1_desc name="p_formlist_2_select_1_desc">2</formlist_2_select_1_desc>
+                        <formlist_2_text_1 name="p_formlist_2_text_1" desc="true">Officia aperiam sit adipiscing labore</formlist_2_text_1>
+                        <formlist_2_text_1_desc name="p_formlist_2_text_1_desc">Officia aperiam sit adipiscing labore</formlist_2_text_1_desc>
+                        <formlist_2_textarea_1 name="p_formlist_2_textarea_1" desc="true">Mollit iste consectetur perspiciatis totam deserunt anim sit magna consectetur sit mollit sed anim deserunt</formlist_2_textarea_1>
+                        <formlist_2_textarea_1_desc name="p_formlist_2_textarea_1_desc">Mollit iste consectetur perspiciatis totam deserunt anim sit magna consectetur sit mollit sed anim deserunt</formlist_2_textarea_1_desc>
+                        <formlist_2_time_1 name="p_formlist_2_time_1" desc="true">08:47</formlist_2_time_1>
+                        <formlist_2_time_1_desc name="p_formlist_2_time_1_desc">08:47</formlist_2_time_1_desc>
+                        <formlist_2_file_1 name="p_formlist_2_file_1" desc="true"/>
+                        <formlist_2_file_1_desc name="p_formlist_2_file_1_desc"/>
+                        <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" desc="true"/>
+                        <formlist_2_virtualkeyboard_1_desc name="p_formlist_2_virtualkeyboard_1_desc"/>
+                    </row>
+                    <row>
+                        <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" desc="true">Aperiam ipsum aperiam accusantium iste</formlist_1_plaintext_1>
+                        <formlist_1_plaintext_1_desc name="p_formlist_1_plaintext_1_desc">Aperiam ipsum aperiam accusantium iste</formlist_1_plaintext_1_desc>
+                        <formlist_2_radio_1 name="p_formlist_2_radio_1" check="true" desc="true">1</formlist_2_radio_1>
+                        <formlist_2_radio_1_desc name="p_formlist_2_radio_1_desc">1</formlist_2_radio_1_desc>
+                        <formlist_2_range_1 name="p_formlist_2_range_1" desc="true">0</formlist_2_range_1>
+                        <formlist_2_range_1_desc name="p_formlist_2_range_1_desc">0</formlist_2_range_1_desc>
+                        <formlist_2_select_1 name="p_formlist_2_select_1" desc="true">2</formlist_2_select_1>
+                        <formlist_2_select_1_desc name="p_formlist_2_select_1_desc">2</formlist_2_select_1_desc>
+                        <formlist_2_text_1 name="p_formlist_2_text_1" desc="true">Natus sit ut iste magna</formlist_2_text_1>
+                        <formlist_2_text_1_desc name="p_formlist_2_text_1_desc">Natus sit ut iste magna</formlist_2_text_1_desc>
+                        <formlist_2_textarea_1 name="p_formlist_2_textarea_1" desc="true">Elit ut aliqua laudantium dolor unde sed aliqua aperiam rem sit officia aliqua ipsum aperiam</formlist_2_textarea_1>
+                        <formlist_2_textarea_1_desc name="p_formlist_2_textarea_1_desc">Elit ut aliqua laudantium dolor unde sed aliqua aperiam rem sit officia aliqua ipsum aperiam</formlist_2_textarea_1_desc>
+                        <formlist_2_time_1 name="p_formlist_2_time_1" desc="true">08:41</formlist_2_time_1>
+                        <formlist_2_time_1_desc name="p_formlist_2_time_1_desc">08:41</formlist_2_time_1_desc>
+                        <formlist_2_file_1 name="p_formlist_2_file_1" desc="true"/>
+                        <formlist_2_file_1_desc name="p_formlist_2_file_1_desc"/>
+                        <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" desc="true"/>
+                        <formlist_2_virtualkeyboard_1_desc name="p_formlist_2_virtualkeyboard_1_desc"/>
+                    </row>
+                    <row>
+                        <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" desc="true">Omnis totam omnis rem sit</formlist_1_plaintext_1>
+                        <formlist_1_plaintext_1_desc name="p_formlist_1_plaintext_1_desc">Omnis totam omnis rem sit</formlist_1_plaintext_1_desc>
+                        <formlist_2_radio_1 name="p_formlist_2_radio_1" check="true" desc="true">1</formlist_2_radio_1>
+                        <formlist_2_radio_1_desc name="p_formlist_2_radio_1_desc">1</formlist_2_radio_1_desc>
+                        <formlist_2_range_1 name="p_formlist_2_range_1" desc="true">2</formlist_2_range_1>
+                        <formlist_2_range_1_desc name="p_formlist_2_range_1_desc">2</formlist_2_range_1_desc>
+                        <formlist_2_select_1 name="p_formlist_2_select_1" desc="true">2</formlist_2_select_1>
+                        <formlist_2_select_1_desc name="p_formlist_2_select_1_desc">2</formlist_2_select_1_desc>
+                        <formlist_2_text_1 name="p_formlist_2_text_1" desc="true">Mollit elit stract rem officia</formlist_2_text_1>
+                        <formlist_2_text_1_desc name="p_formlist_2_text_1_desc">Mollit elit stract rem officia</formlist_2_text_1_desc>
+                        <formlist_2_textarea_1 name="p_formlist_2_textarea_1" desc="true">Lorem aperiam totam omnis consectetur accusantium adipiscing dolor lorem sit labore unde aliqua natus consectetur</formlist_2_textarea_1>
+                        <formlist_2_textarea_1_desc name="p_formlist_2_textarea_1_desc">Lorem aperiam totam omnis consectetur accusantium adipiscing dolor lorem sit labore unde aliqua natus consectetur</formlist_2_textarea_1_desc>
+                        <formlist_2_time_1 name="p_formlist_2_time_1" desc="true">04:06</formlist_2_time_1>
+                        <formlist_2_time_1_desc name="p_formlist_2_time_1_desc">04:06</formlist_2_time_1_desc>
+                        <formlist_2_file_1 name="p_formlist_2_file_1" desc="true"/>
+                        <formlist_2_file_1_desc name="p_formlist_2_file_1_desc"/>
+                        <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" desc="true"/>
+                        <formlist_2_virtualkeyboard_1_desc name="p_formlist_2_virtualkeyboard_1_desc"/>
+                    </row>
+                    <row>
+                        <formlist_1_plaintext_1 name="p_formlist_1_plaintext_1" desc="true">Anim omnis deserunt consectetur officia</formlist_1_plaintext_1>
+                        <formlist_1_plaintext_1_desc name="p_formlist_1_plaintext_1_desc">Anim omnis deserunt consectetur officia</formlist_1_plaintext_1_desc>
+                        <formlist_2_radio_1 name="p_formlist_2_radio_1" check="true" desc="true">1</formlist_2_radio_1>
+                        <formlist_2_radio_1_desc name="p_formlist_2_radio_1_desc">1</formlist_2_radio_1_desc>
+                        <formlist_2_range_1 name="p_formlist_2_range_1" desc="true">2</formlist_2_range_1>
+                        <formlist_2_range_1_desc name="p_formlist_2_range_1_desc">2</formlist_2_range_1_desc>
+                        <formlist_2_select_1 name="p_formlist_2_select_1" desc="true">2</formlist_2_select_1>
+                        <formlist_2_select_1_desc name="p_formlist_2_select_1_desc">2</formlist_2_select_1_desc>
+                        <formlist_2_text_1 name="p_formlist_2_text_1" desc="true">Magna natus labore deserunt natus</formlist_2_text_1>
+                        <formlist_2_text_1_desc name="p_formlist_2_text_1_desc">Magna natus labore deserunt natus</formlist_2_text_1_desc>
+                        <formlist_2_textarea_1 name="p_formlist_2_textarea_1" desc="true">Magna amet ipsum voluptatem stract adipiscing officia totam labore sed perspiciatis mollit lorem labore lorem</formlist_2_textarea_1>
+                        <formlist_2_textarea_1_desc name="p_formlist_2_textarea_1_desc">Magna amet ipsum voluptatem stract adipiscing officia totam labore sed perspiciatis mollit lorem labore lorem</formlist_2_textarea_1_desc>
+                        <formlist_2_time_1 name="p_formlist_2_time_1" desc="true">03:08</formlist_2_time_1>
+                        <formlist_2_time_1_desc name="p_formlist_2_time_1_desc">03:08</formlist_2_time_1_desc>
+                        <formlist_2_file_1 name="p_formlist_2_file_1" desc="true"/>
+                        <formlist_2_file_1_desc name="p_formlist_2_file_1_desc"/>
+                        <formlist_2_virtualkeyboard_1 name="p_formlist_2_virtualkeyboard_1" desc="true"/>
+                        <formlist_2_virtualkeyboard_1_desc name="p_formlist_2_virtualkeyboard_1_desc"/>
+                    </row>
+                </value>
+            </table>
+        </formlist_2>
+        <separatorlist_1 type="separatorlist" xml-type="separatorlist" title="Separatorlist" gen-clean="true" gen-type="container" gen-group="true">
+            <fields>
+                <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" type="checkbox" maxlength="250" required="false" change="false" readonly="false" disabled="false" right="false" java-type="int" check="true" desc="true">
+                    <label>Checkbox</label>
+                    <value>1</value>
+                </separatorlist_1_checkbox_1>
+                <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" type="checkboxlist" domain="" maxlength="250" required="false" change="false" readonly="false" disabled="false" child_size="12" right="false" java-type="" desc="true">
+                    <label>Checkboxlist</label>
+                    <list>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </separatorlist_1_checkboxlist_1>
+                <separatorlist_1_color_1 name="p_separatorlist_1_color_1" type="color" format="hex" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Color</label>
+                    <value>#69a193</value>
+                </separatorlist_1_color_1>
+                <separatorlist_1_email_1 name="p_separatorlist_1_email_1" type="email" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" desclabel="false" desc="true">
+                    <label>Email</label>
+                    <value>cagun@example.com</value>
+                </separatorlist_1_email_1>
+                <formlist_1_number_1 name="p_formlist_1_number_1" type="number" maxlength="250" required="false" change="false" readonly="false" disabled="false" placeholder="" right="false" java-type="" min="" max="" desclabel="false" desc="true">
+                    <label>Number</label>
+                    <value>73</value>
+                </formlist_1_number_1>
+                <separatorlist_1_select_1 name="p_separatorlist_1_select_1" type="select" multiple="false" tags="false" domain="" maxlength="250" required="false" change="false" disabled="false" right="false" java-type="" desc="true">
+                    <label>Select</label>
+                    <list>
+                        <option/>
+                        <option>
+                            <text>Option 1</text>
+                            <value>1</value>
+                        </option>
+                        <option>
+                            <text>Option 2</text>
+                            <value>2</value>
+                        </option>
+                        <option>
+                            <text>Option 3</text>
+                            <value>3</value>
+                        </option>
+                        <option>
+                            <text>Option 4</text>
+                            <value>4</value>
+                        </option>
+                    </list>
+                </separatorlist_1_select_1>
+                <separatorlist_1_file_1 name="p_separatorlist_1_file_1" type="file" accept="" targetrend="" multiple="false" rendvalue="false" maxlength="250" required="false" disabled="false" right="false" class="primary" desc="true">
+                    <label>File</label>
+                    <value/>
+                </separatorlist_1_file_1>
+                <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" type="hidden" maxlength="250" java-type="" tag="separatorlist_1_hidden_1" desc="true"/>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" check="true" desc="true">1</separatorlist_1_checkbox_1>
+                        <separatorlist_1_checkbox_1_desc name="p_separatorlist_1_checkbox_1_desc">1</separatorlist_1_checkbox_1_desc>
+                        <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" desc="true">2,3</separatorlist_1_checkboxlist_1>
+                        <separatorlist_1_checkboxlist_1_desc name="p_separatorlist_1_checkboxlist_1_desc">2,3</separatorlist_1_checkboxlist_1_desc>
+                        <separatorlist_1_color_1 name="p_separatorlist_1_color_1" desc="true">#ad435c</separatorlist_1_color_1>
+                        <separatorlist_1_color_1_desc name="p_separatorlist_1_color_1_desc">#ad435c</separatorlist_1_color_1_desc>
+                        <separatorlist_1_email_1 name="p_separatorlist_1_email_1" desc="true">oc@example.com</separatorlist_1_email_1>
+                        <separatorlist_1_email_1_desc name="p_separatorlist_1_email_1_desc">oc@example.com</separatorlist_1_email_1_desc>
+                        <formlist_1_number_1 name="p_formlist_1_number_1" desc="true">71</formlist_1_number_1>
+                        <formlist_1_number_1_desc name="p_formlist_1_number_1_desc">71</formlist_1_number_1_desc>
+                        <separatorlist_1_select_1 name="p_separatorlist_1_select_1" desc="true">2</separatorlist_1_select_1>
+                        <separatorlist_1_select_1_desc name="p_separatorlist_1_select_1_desc">2</separatorlist_1_select_1_desc>
+                        <separatorlist_1_file_1 name="p_separatorlist_1_file_1" desc="true"/>
+                        <separatorlist_1_file_1_desc name="p_separatorlist_1_file_1_desc"/>
+                        <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" tag="separatorlist_1_hidden_1" desc="true">hidden-a2be_9e14</separatorlist_1_hidden_1>
+                        <separatorlist_1_hidden_1_desc name="p_separatorlist_1_hidden_1_desc">hidden-a2be_9e14</separatorlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" check="true" desc="true">1</separatorlist_1_checkbox_1>
+                        <separatorlist_1_checkbox_1_desc name="p_separatorlist_1_checkbox_1_desc">1</separatorlist_1_checkbox_1_desc>
+                        <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" desc="true">2,1</separatorlist_1_checkboxlist_1>
+                        <separatorlist_1_checkboxlist_1_desc name="p_separatorlist_1_checkboxlist_1_desc">2,1</separatorlist_1_checkboxlist_1_desc>
+                        <separatorlist_1_color_1 name="p_separatorlist_1_color_1" desc="true">#a83c08</separatorlist_1_color_1>
+                        <separatorlist_1_color_1_desc name="p_separatorlist_1_color_1_desc">#a83c08</separatorlist_1_color_1_desc>
+                        <separatorlist_1_email_1 name="p_separatorlist_1_email_1" desc="true">ti@example.com</separatorlist_1_email_1>
+                        <separatorlist_1_email_1_desc name="p_separatorlist_1_email_1_desc">ti@example.com</separatorlist_1_email_1_desc>
+                        <formlist_1_number_1 name="p_formlist_1_number_1" desc="true">52</formlist_1_number_1>
+                        <formlist_1_number_1_desc name="p_formlist_1_number_1_desc">52</formlist_1_number_1_desc>
+                        <separatorlist_1_select_1 name="p_separatorlist_1_select_1" desc="true">2</separatorlist_1_select_1>
+                        <separatorlist_1_select_1_desc name="p_separatorlist_1_select_1_desc">2</separatorlist_1_select_1_desc>
+                        <separatorlist_1_file_1 name="p_separatorlist_1_file_1" desc="true"/>
+                        <separatorlist_1_file_1_desc name="p_separatorlist_1_file_1_desc"/>
+                        <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" tag="separatorlist_1_hidden_1" desc="true">hidden-9222_8336</separatorlist_1_hidden_1>
+                        <separatorlist_1_hidden_1_desc name="p_separatorlist_1_hidden_1_desc">hidden-9222_8336</separatorlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" check="true" desc="true">1</separatorlist_1_checkbox_1>
+                        <separatorlist_1_checkbox_1_desc name="p_separatorlist_1_checkbox_1_desc">1</separatorlist_1_checkbox_1_desc>
+                        <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" desc="true">4,3</separatorlist_1_checkboxlist_1>
+                        <separatorlist_1_checkboxlist_1_desc name="p_separatorlist_1_checkboxlist_1_desc">4,3</separatorlist_1_checkboxlist_1_desc>
+                        <separatorlist_1_color_1 name="p_separatorlist_1_color_1" desc="true">#2df6dc</separatorlist_1_color_1>
+                        <separatorlist_1_color_1_desc name="p_separatorlist_1_color_1_desc">#2df6dc</separatorlist_1_color_1_desc>
+                        <separatorlist_1_email_1 name="p_separatorlist_1_email_1" desc="true">wurdo@example.com</separatorlist_1_email_1>
+                        <separatorlist_1_email_1_desc name="p_separatorlist_1_email_1_desc">wurdo@example.com</separatorlist_1_email_1_desc>
+                        <formlist_1_number_1 name="p_formlist_1_number_1" desc="true">9</formlist_1_number_1>
+                        <formlist_1_number_1_desc name="p_formlist_1_number_1_desc">9</formlist_1_number_1_desc>
+                        <separatorlist_1_select_1 name="p_separatorlist_1_select_1" desc="true">2</separatorlist_1_select_1>
+                        <separatorlist_1_select_1_desc name="p_separatorlist_1_select_1_desc">2</separatorlist_1_select_1_desc>
+                        <separatorlist_1_file_1 name="p_separatorlist_1_file_1" desc="true"/>
+                        <separatorlist_1_file_1_desc name="p_separatorlist_1_file_1_desc"/>
+                        <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" tag="separatorlist_1_hidden_1" desc="true">hidden-9d3c_fed9</separatorlist_1_hidden_1>
+                        <separatorlist_1_hidden_1_desc name="p_separatorlist_1_hidden_1_desc">hidden-9d3c_fed9</separatorlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" check="true" desc="true">1</separatorlist_1_checkbox_1>
+                        <separatorlist_1_checkbox_1_desc name="p_separatorlist_1_checkbox_1_desc">1</separatorlist_1_checkbox_1_desc>
+                        <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" desc="true">1,3</separatorlist_1_checkboxlist_1>
+                        <separatorlist_1_checkboxlist_1_desc name="p_separatorlist_1_checkboxlist_1_desc">1,3</separatorlist_1_checkboxlist_1_desc>
+                        <separatorlist_1_color_1 name="p_separatorlist_1_color_1" desc="true">#8b3ac0</separatorlist_1_color_1>
+                        <separatorlist_1_color_1_desc name="p_separatorlist_1_color_1_desc">#8b3ac0</separatorlist_1_color_1_desc>
+                        <separatorlist_1_email_1 name="p_separatorlist_1_email_1" desc="true">mahaco@example.com</separatorlist_1_email_1>
+                        <separatorlist_1_email_1_desc name="p_separatorlist_1_email_1_desc">mahaco@example.com</separatorlist_1_email_1_desc>
+                        <formlist_1_number_1 name="p_formlist_1_number_1" desc="true">16</formlist_1_number_1>
+                        <formlist_1_number_1_desc name="p_formlist_1_number_1_desc">16</formlist_1_number_1_desc>
+                        <separatorlist_1_select_1 name="p_separatorlist_1_select_1" desc="true">2</separatorlist_1_select_1>
+                        <separatorlist_1_select_1_desc name="p_separatorlist_1_select_1_desc">2</separatorlist_1_select_1_desc>
+                        <separatorlist_1_file_1 name="p_separatorlist_1_file_1" desc="true"/>
+                        <separatorlist_1_file_1_desc name="p_separatorlist_1_file_1_desc"/>
+                        <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" tag="separatorlist_1_hidden_1" desc="true">hidden-0b37_0002</separatorlist_1_hidden_1>
+                        <separatorlist_1_hidden_1_desc name="p_separatorlist_1_hidden_1_desc">hidden-0b37_0002</separatorlist_1_hidden_1_desc>
+                    </row>
+                    <row>
+                        <separatorlist_1_checkbox_1 name="p_separatorlist_1_checkbox_1" check="true" desc="true">1</separatorlist_1_checkbox_1>
+                        <separatorlist_1_checkbox_1_desc name="p_separatorlist_1_checkbox_1_desc">1</separatorlist_1_checkbox_1_desc>
+                        <separatorlist_1_checkboxlist_1 name="p_separatorlist_1_checkboxlist_1" desc="true">2,3</separatorlist_1_checkboxlist_1>
+                        <separatorlist_1_checkboxlist_1_desc name="p_separatorlist_1_checkboxlist_1_desc">2,3</separatorlist_1_checkboxlist_1_desc>
+                        <separatorlist_1_color_1 name="p_separatorlist_1_color_1" desc="true">#10360a</separatorlist_1_color_1>
+                        <separatorlist_1_color_1_desc name="p_separatorlist_1_color_1_desc">#10360a</separatorlist_1_color_1_desc>
+                        <separatorlist_1_email_1 name="p_separatorlist_1_email_1" desc="true">nebacka@example.com</separatorlist_1_email_1>
+                        <separatorlist_1_email_1_desc name="p_separatorlist_1_email_1_desc">nebacka@example.com</separatorlist_1_email_1_desc>
+                        <formlist_1_number_1 name="p_formlist_1_number_1" desc="true">235</formlist_1_number_1>
+                        <formlist_1_number_1_desc name="p_formlist_1_number_1_desc">235</formlist_1_number_1_desc>
+                        <separatorlist_1_select_1 name="p_separatorlist_1_select_1" desc="true">2</separatorlist_1_select_1>
+                        <separatorlist_1_select_1_desc name="p_separatorlist_1_select_1_desc">2</separatorlist_1_select_1_desc>
+                        <separatorlist_1_file_1 name="p_separatorlist_1_file_1" desc="true"/>
+                        <separatorlist_1_file_1_desc name="p_separatorlist_1_file_1_desc"/>
+                        <separatorlist_1_hidden_1 name="p_separatorlist_1_hidden_1" tag="separatorlist_1_hidden_1" desc="true">hidden-1464_9414</separatorlist_1_hidden_1>
+                        <separatorlist_1_hidden_1_desc name="p_separatorlist_1_hidden_1_desc">hidden-1464_9414</separatorlist_1_hidden_1_desc>
+                    </row>
+                </value>
+            </table>
+        </separatorlist_1>
+        <table_1 type="table" xml-type="table" title="Table" gen-type="container" gen-group="true">
+            <fields>
+                <table_1_checkbox_1 name="p_table_1_checkbox_1" type="checkbox" maxlength="30" align="left" lookup_parser="false" iskey="false" switch="true" java-type="int" showLabel="true" group_in="" check="true" desc="true">
+                    <label>Checkbox</label>
+                </table_1_checkbox_1>
+                <table_1_color_1 name="p_table_1_color_1" type="color" format="hex" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Color</label>
+                </table_1_color_1>
+                <table_1_date_1 name="p_table_1_date_1" type="date" range="false" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Date</label>
+                </table_1_date_1>
+                <table_1_email_1 name="p_table_1_email_1" type="email" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Email</label>
+                </table_1_email_1>
+                <table_1_link_1 name="p_table_1_link_1" type="link" target="_self" request_fields="" target_fields="" closerefresh="false" action="index" page="Components_that_need_fields" app="catalogo_igrp" custom_action="" action_type="false" class="link" btnSize="" iconColor="#333" iconClass="" img="fa-link" maxlength="30" align="left" lookup_parser="false" iskey="false" show_header="true" list_source="" refresh_submit="false" showLabel="true" group_in="" refresh_components="" desc="true">
+                    <label>Link</label>
+                </table_1_link_1>
+                <table_1_img_1 name="p_table_1_img_1" type="img" persist="true" img="/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg" width="" height="" croppie="false" rounded="false" maxlength="30" align="left" lookup_parser="false" iskey="false" autoupload="false" showLabel="true" group_in="">
+                    <label>Img</label>
+                </table_1_img_1>
+                <table_1_number_1 name="p_table_1_number_1" type="number" min="" max="" maxlength="30" align="left" lookup_parser="false" iskey="false" total_footer="false" java-type="" showLabel="true" group_in="">
+                    <label>Number</label>
+                </table_1_number_1>
+                <table_1_password_1 name="p_table_1_password_1" type="password" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Password</label>
+                </table_1_password_1>
+                <table_1_plaintext_1 name="p_table_1_plaintext_1" type="plaintext" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" disable_output_escaping="false" html_class="" group_in="">
+                    <label>Plaintext</label>
+                </table_1_plaintext_1>
+                <table_1_hidden_1 name="p_table_1_hidden_1" type="hidden" maxlength="30" iskey="false" java-type="" showLabel="true" group_in="" tag="table_1_hidden_1"/>
+                <table_1_filter name="p_table_1_filter" type="text" maxlength="100">
+                    <value/>
+                </table_1_filter>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_checkbox_1 name="p_table_1_checkbox_1" check="true" desc="true">1</table_1_checkbox_1>
+                        <table_1_checkbox_1_desc name="p_table_1_checkbox_1_desc">1</table_1_checkbox_1_desc>
+                        <table_1_color_1 name="p_table_1_color_1">1</table_1_color_1>
+                        <table_1_date_1 name="p_table_1_date_1">01-02-2014</table_1_date_1>
+                        <table_1_email_1 name="p_table_1_email_1">rersu@example.com</table_1_email_1>
+                        <table_1_link_1 name="p_table_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</table_1_link_1>
+                        <table_1_link_1_desc name="p_table_1_link_1_desc">Link</table_1_link_1_desc>
+                        <table_1_img_1 name="p_table_1_img_1">/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</table_1_img_1>
+                        <table_1_number_1 name="p_table_1_number_1">6</table_1_number_1>
+                        <table_1_password_1 name="p_table_1_password_1">******</table_1_password_1>
+                        <table_1_plaintext_1 name="p_table_1_plaintext_1">Magna laudantium sit adipiscin</table_1_plaintext_1>
+                        <table_1_hidden_1 name="p_table_1_hidden_1" tag="table_1_hidden_1">hidden-96aa_04ac</table_1_hidden_1>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_checkbox_1 name="p_table_1_checkbox_1" check="true" desc="true">1</table_1_checkbox_1>
+                        <table_1_checkbox_1_desc name="p_table_1_checkbox_1_desc">1</table_1_checkbox_1_desc>
+                        <table_1_color_1 name="p_table_1_color_1">2</table_1_color_1>
+                        <table_1_date_1 name="p_table_1_date_1">01-01-2014</table_1_date_1>
+                        <table_1_email_1 name="p_table_1_email_1">kuhow@example.com</table_1_email_1>
+                        <table_1_link_1 name="p_table_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</table_1_link_1>
+                        <table_1_link_1_desc name="p_table_1_link_1_desc">Link</table_1_link_1_desc>
+                        <table_1_img_1 name="p_table_1_img_1">/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</table_1_img_1>
+                        <table_1_number_1 name="p_table_1_number_1">16</table_1_number_1>
+                        <table_1_password_1 name="p_table_1_password_1">******</table_1_password_1>
+                        <table_1_plaintext_1 name="p_table_1_plaintext_1">Omnis anim amet lorem aperiam</table_1_plaintext_1>
+                        <table_1_hidden_1 name="p_table_1_hidden_1" tag="table_1_hidden_1">hidden-b7dd_e839</table_1_hidden_1>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_checkbox_1 name="p_table_1_checkbox_1" check="true" desc="true">1</table_1_checkbox_1>
+                        <table_1_checkbox_1_desc name="p_table_1_checkbox_1_desc">1</table_1_checkbox_1_desc>
+                        <table_1_color_1 name="p_table_1_color_1">2</table_1_color_1>
+                        <table_1_date_1 name="p_table_1_date_1">01-04-2013</table_1_date_1>
+                        <table_1_email_1 name="p_table_1_email_1">fen@example.com</table_1_email_1>
+                        <table_1_link_1 name="p_table_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</table_1_link_1>
+                        <table_1_link_1_desc name="p_table_1_link_1_desc">Link</table_1_link_1_desc>
+                        <table_1_img_1 name="p_table_1_img_1">/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</table_1_img_1>
+                        <table_1_number_1 name="p_table_1_number_1">5</table_1_number_1>
+                        <table_1_password_1 name="p_table_1_password_1">******</table_1_password_1>
+                        <table_1_plaintext_1 name="p_table_1_plaintext_1">Officia stract labore natus do</table_1_plaintext_1>
+                        <table_1_hidden_1 name="p_table_1_hidden_1" tag="table_1_hidden_1">hidden-6b1f_54bb</table_1_hidden_1>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_checkbox_1 name="p_table_1_checkbox_1" check="true" desc="true">1</table_1_checkbox_1>
+                        <table_1_checkbox_1_desc name="p_table_1_checkbox_1_desc">1</table_1_checkbox_1_desc>
+                        <table_1_color_1 name="p_table_1_color_1">3</table_1_color_1>
+                        <table_1_date_1 name="p_table_1_date_1">05-04-2017</table_1_date_1>
+                        <table_1_email_1 name="p_table_1_email_1">la@example.com</table_1_email_1>
+                        <table_1_link_1 name="p_table_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</table_1_link_1>
+                        <table_1_link_1_desc name="p_table_1_link_1_desc">Link</table_1_link_1_desc>
+                        <table_1_img_1 name="p_table_1_img_1">/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</table_1_img_1>
+                        <table_1_number_1 name="p_table_1_number_1">27</table_1_number_1>
+                        <table_1_password_1 name="p_table_1_password_1">******</table_1_password_1>
+                        <table_1_plaintext_1 name="p_table_1_plaintext_1">Consectetur elit voluptatem de</table_1_plaintext_1>
+                        <table_1_hidden_1 name="p_table_1_hidden_1" tag="table_1_hidden_1">hidden-14bd_91a7</table_1_hidden_1>
+                    </row>
+                    <row>
+                        <context-menu>
+                            <param>p1=linha1</param>
+                            <param>p2=linha1</param>
+                        </context-menu>
+                        <table_1_checkbox_1 name="p_table_1_checkbox_1" check="true" desc="true">1</table_1_checkbox_1>
+                        <table_1_checkbox_1_desc name="p_table_1_checkbox_1_desc">1</table_1_checkbox_1_desc>
+                        <table_1_color_1 name="p_table_1_color_1">3</table_1_color_1>
+                        <table_1_date_1 name="p_table_1_date_1">06-07-2015</table_1_date_1>
+                        <table_1_email_1 name="p_table_1_email_1">jun@example.com</table_1_email_1>
+                        <table_1_link_1 name="p_table_1_link_1" desc="true">/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</table_1_link_1>
+                        <table_1_link_1_desc name="p_table_1_link_1_desc">Link</table_1_link_1_desc>
+                        <table_1_img_1 name="p_table_1_img_1">/IGRP/images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</table_1_img_1>
+                        <table_1_number_1 name="p_table_1_number_1">5</table_1_number_1>
+                        <table_1_password_1 name="p_table_1_password_1">******</table_1_password_1>
+                        <table_1_plaintext_1 name="p_table_1_plaintext_1">Laudantium dolor doloremque re</table_1_plaintext_1>
+                        <table_1_hidden_1 name="p_table_1_hidden_1" tag="table_1_hidden_1">hidden-f1e2_8459</table_1_hidden_1>
+                    </row>
+                </value>
+                <legend_color>
+                    <item>
+                        <label>Cor 1</label>
+                        <value>1</value>
+                        <color>#dc2b4c</color>
+                    </item>
+                    <item>
+                        <label>Cor 2</label>
+                        <value>2</value>
+                        <color>#ea9126</color>
+                    </item>
+                    <item>
+                        <label>Cor 3</label>
+                        <value>3</value>
+                        <color>#95c11f</color>
+                    </item>
+                </legend_color>
+                <context-menu>../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml../images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</context-menu>
+            </table>
+        </table_1>
+        <table_2 type="table" xml-type="table" title="Table Part2" gen-type="container" gen-group="true">
+            <fields>
+                <table_2_radio_1 name="p_table_2_radio_1" type="radio" maxlength="30" align="left" lookup_parser="false" iskey="false" java-type="" showLabel="true" group_in="" check="true" desc="true">
+                    <label>Radio</label>
+                </table_2_radio_1>
+                <table_2_text_1 name="p_table_2_text_1" type="text" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Text</label>
+                </table_2_text_1>
+                <table_2_textarea_1 name="p_table_2_textarea_1" type="textarea" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Textarea</label>
+                </table_2_textarea_1>
+                <table_2_time_1 name="p_table_2_time_1" type="time" maxlength="30" align="left" lookup_parser="false" iskey="false" showLabel="true" group_in="">
+                    <label>Time</label>
+                </table_2_time_1>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <table_2_radio_1 name="p_table_2_radio_1" check="true" desc="true">1</table_2_radio_1>
+                        <table_2_radio_1_desc name="p_table_2_radio_1_desc">1</table_2_radio_1_desc>
+                        <table_2_text_1 name="p_table_2_text_1">Magna sed dolor adipiscing und</table_2_text_1>
+                        <table_2_textarea_1 name="p_table_2_textarea_1">Lorem totam omnis ut anim omni</table_2_textarea_1>
+                        <table_2_time_1 name="p_table_2_time_1">13:04</table_2_time_1>
+                    </row>
+                    <row>
+                        <table_2_radio_1 name="p_table_2_radio_1" check="true" desc="true">1</table_2_radio_1>
+                        <table_2_radio_1_desc name="p_table_2_radio_1_desc">1</table_2_radio_1_desc>
+                        <table_2_text_1 name="p_table_2_text_1">Adipiscing magna ipsum totam s</table_2_text_1>
+                        <table_2_textarea_1 name="p_table_2_textarea_1">Ipsum accusantium aliqua strac</table_2_textarea_1>
+                        <table_2_time_1 name="p_table_2_time_1">11:41</table_2_time_1>
+                    </row>
+                    <row>
+                        <table_2_radio_1 name="p_table_2_radio_1" check="true" desc="true">1</table_2_radio_1>
+                        <table_2_radio_1_desc name="p_table_2_radio_1_desc">1</table_2_radio_1_desc>
+                        <table_2_text_1 name="p_table_2_text_1">Consectetur doloremque consect</table_2_text_1>
+                        <table_2_textarea_1 name="p_table_2_textarea_1">Amet doloremque magna iste tot</table_2_textarea_1>
+                        <table_2_time_1 name="p_table_2_time_1">17:22</table_2_time_1>
+                    </row>
+                    <row>
+                        <table_2_radio_1 name="p_table_2_radio_1" check="true" desc="true">1</table_2_radio_1>
+                        <table_2_radio_1_desc name="p_table_2_radio_1_desc">1</table_2_radio_1_desc>
+                        <table_2_text_1 name="p_table_2_text_1">Magna stract anim iste sed</table_2_text_1>
+                        <table_2_textarea_1 name="p_table_2_textarea_1">Rem anim doloremque aperiam am</table_2_textarea_1>
+                        <table_2_time_1 name="p_table_2_time_1">14:02</table_2_time_1>
+                    </row>
+                    <row>
+                        <table_2_radio_1 name="p_table_2_radio_1" check="true" desc="true">1</table_2_radio_1>
+                        <table_2_radio_1_desc name="p_table_2_radio_1_desc">1</table_2_radio_1_desc>
+                        <table_2_text_1 name="p_table_2_text_1">Rem perspiciatis aperiam strac</table_2_text_1>
+                        <table_2_textarea_1 name="p_table_2_textarea_1">Sit voluptatem mollit natus la</table_2_textarea_1>
+                        <table_2_time_1 name="p_table_2_time_1">08:44</table_2_time_1>
+                    </row>
+                </value>
+            </table>
+        </table_2>
+        <view_1 type="view" xml-type="view" title="View" gen-type="container" gen-group="">
+            <fields>
+                <view_1_number_1 name="p_view_1_number_1" type="number" maxlength="30" min="" max="" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Number</label>
+                    <value>11</value>
+                </view_1_number_1>
+                <view_1_text_1 name="p_view_1_text_1" type="text" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Accusantium dolor totam laudan</value>
+                </view_1_text_1>
+                <view_1_email_1 name="p_view_1_email_1" type="email" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Email</label>
+                    <value>te@example.com</value>
+                </view_1_email_1>
+                <view_1_date_1 name="p_view_1_date_1" type="date" range="false" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Date</label>
+                    <value>03-05-2014</value>
+                </view_1_date_1>
+                <view_1_img type="text" name="p_view_1_img" maxlength="300">
+                    <value>../images/IGRP/IGRP2.3/assets/img/jon_doe.jpg</value>
+                </view_1_img>
+            </fields>
+        </view_1>
+        <view_2 type="view" xml-type="view" title="View" gen-type="container" gen-group="">
+            <fields>
+                <view_1_number_1_1 name="p_view_1_number_1" type="number" maxlength="30" min="" max="" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Number</label>
+                    <value>25</value>
+                </view_1_number_1_1>
+                <view_1_text_1_1 name="p_view_1_text_1" type="text" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Text</label>
+                    <value>Mollit labore doloremque molli</value>
+                </view_1_text_1_1>
+                <view_1_email_1_1 name="p_view_1_email_1" type="email" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Email</label>
+                    <value>ca@example.com</value>
+                </view_1_email_1_1>
+                <view_1_date_1_1 name="p_view_1_date_1" type="date" range="false" maxlength="30" class="default" iconColor="#333" iconClass="" img="" showlabel="true">
+                    <label>Date</label>
+                    <value>04-08-2011</value>
+                </view_1_date_1_1>
+            </fields>
+        </view_2>
+    </content>
+    <blockly>
+        <imports></imports>
+        <xml>
+            <block type="controller" id="controller" x="388" y="13"></block>
+        </xml>
+    </blockly>
+</rows>

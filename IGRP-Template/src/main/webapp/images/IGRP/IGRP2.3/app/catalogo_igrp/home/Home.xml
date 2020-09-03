@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/home/Home.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Home</page>
+    <app>catalogo_igrp</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.catalogo_igrp.pages</package_db>
+        <package_html>Home</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=200</preserve_url>
+    </plsql>
+    <slide-menu file="/IGRP/images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="/IGRP/images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Home</title>
+        <paragraph_1 type="paragraph" xml-type="form" title="Página Inicial" gen-type="container" gen-group="">
+            <fields>
+                <paragraph_1_text type="text" name="p_paragraph_1_text" persist="true" maxlength="4000">
+                    <value>
+                        <![CDATA[<p><span style='font-family:Comic Sans MS,cursive;'>PT: Esta aplica&ccedil;&atilde;o Catalogo est&aacute; divida em 3 p&aacute;ginas que podem ser acedidas pelo menu lateral. Alguns t&ecirc;m c&oacute;digos de como usar os components/+fields.<br />
+&nbsp; &nbsp;&nbsp;<br />
+EN: This app &nbsp;Catalogo is divided in to 3 pages that can be seen in the sidebar. Some has code of how to use &nbsp;components/+fields.</span><br />
+&nbsp;</p>
+]]>
+                    </value>
+                </paragraph_1_text>
+            </fields>
+        </paragraph_1>
+        <box_1 type="box" xml-type="form" gen-type="container" gen-group="">
+            <fields/>
+        </box_1>
+        <box_3 type="box" xml-type="form" gen-type="container" gen-group="">
+            <fields/>
+        </box_3>
+        <infopanel_1 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_1_title name="p_infopanel_1_title" type="text" maxlength="4000" persist="true">
+                    <label>Title</label>
+                    <value>Group and menu components</value>
+                </infopanel_1_title>
+                <infopanel_1_val name="p_infopanel_1_val" type="text" maxlength="4000" persist="true">
+                    <label>Value</label>
+                    <value></value>
+                </infopanel_1_val>
+                <infopanel_1_url name="p_infopanel_1_url" type="link" maxlength="4000" persist="true">
+                    <label/>
+                    <value type="action">
+                        <app>catalogo_igrp</app>
+                        <page>Group_components</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_1_url>
+                <infopanel_1_bg name="p_infopanel_1_bg" type="text" maxlength="4000" persist="true">
+                    <label>Background</label>
+                    <value>cp-cyan</value>
+                </infopanel_1_bg>
+                <infopanel_1_icn name="p_infopanel_1_icn" type="text" maxlength="4000" persist="true">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_1_icn>
+            </fields>
+        </infopanel_1>
+        <box_2 type="box" xml-type="form" gen-type="container" gen-group="">
+            <fields/>
+        </box_2>
+        <infopanel_2 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_2_title name="p_infopanel_2_title" type="text" maxlength="4000" persist="true">
+                    <label>Title</label>
+                    <value>Components a solo</value>
+                </infopanel_2_title>
+                <infopanel_2_val name="p_infopanel_2_val" type="text" maxlength="4000" persist="true">
+                    <label>Value</label>
+                    <value></value>
+                </infopanel_2_val>
+                <infopanel_2_url name="p_infopanel_2_url" type="link" maxlength="4000" persist="true">
+                    <label/>
+                    <value type="action">
+                        <app>catalogo_igrp</app>
+                        <page>Components_a_solo</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_2_url>
+                <infopanel_2_bg name="p_infopanel_2_bg" type="text" maxlength="4000" persist="true">
+                    <label>Background</label>
+                    <value>cp-vermillion</value>
+                </infopanel_2_bg>
+                <infopanel_2_icn name="p_infopanel_2_icn" type="text" maxlength="4000" persist="true">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_2_icn>
+            </fields>
+        </infopanel_2>
+        <form_1 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <img name="p_img" type="img" persist="true" img="/IGRP/images/IGRP/IGRP2.3/assets/img/tutorial/drop_component.png" width="" height="" croppie="false" rounded="false" maxlength="250" placeholder="" right="false" autoupload="false" desclabel="false">
+                    <label>Img</label>
+                    <value>/IGRP/images/IGRP/IGRP2.3/assets/img/tutorial/drop_component.png</value>
+                </img>
+            </fields>
+        </form_1>
+        <paragraph_3 type="paragraph" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <paragraph_3_text type="text" name="p_paragraph_3_text" persist="true" maxlength="4000">
+                    <value>
+                        <![CDATA[<ul><li><strong>Group&nbsp;| Menu components</strong></li><li>Box | Toolbar</li><li>Tabcontent | Treelist</li><li>Panel | Vertical Menu</li><li>...</li></ul>
+]]>
+                    </value>
+                </paragraph_3_text>
+            </fields>
+        </paragraph_3>
+        <paragraph_2 type="paragraph" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <paragraph_2_text type="text" name="p_paragraph_2_text" persist="true" maxlength="4000">
+                    <value>
+                        <![CDATA[<ul><li>Chart</li><li>Timeline</li><li>Finger Print</li><li>Info Panel</li><li>Stat Box</li><li>Small Box</li><li>Quick&nbsp;Button Box</li><li>Leaflet Map</li><li>Map Chart</li><li>Calendar</li><li>Section Header</li><li>Paragraph</li><li>Video</li><li>View</li></ul>
+]]>
+                    </value>
+                </paragraph_2_text>
+            </fields>
+        </paragraph_2>
+        <infopanel_3 type="infopanel" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <infopanel_3_title name="p_infopanel_3_title" type="text" maxlength="4000" persist="true">
+                    <label>Title</label>
+                    <value>Fields in components</value>
+                </infopanel_3_title>
+                <infopanel_3_val name="p_infopanel_3_val" type="text" maxlength="4000" persist="true">
+                    <label>Value</label>
+                    <value></value>
+                </infopanel_3_val>
+                <infopanel_3_url name="p_infopanel_3_url" type="link" maxlength="4000" persist="true">
+                    <label/>
+                    <value type="action">
+                        <app>catalogo_igrp</app>
+                        <page>Components_that_need_fields</page>
+                        <action>index</action>
+                    </value>
+                </infopanel_3_url>
+                <infopanel_3_bg name="p_infopanel_3_bg" type="text" maxlength="4000" persist="true">
+                    <label>Background</label>
+                    <value>cp-magenta</value>
+                </infopanel_3_bg>
+                <infopanel_3_icn name="p_infopanel_3_icn" type="text" maxlength="4000" persist="true">
+                    <label>Icon</label>
+                    <value>fa-info</value>
+                </infopanel_3_icn>
+            </fields>
+        </infopanel_3>
+        <form_2 type="form" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <img_1 name="p_img_1" type="img" persist="true" img="/IGRP/images/IGRP/IGRP2.3/assets/img/tutorial/drop_field.png" width="" height="" croppie="false" rounded="false" maxlength="250" placeholder="" right="false" autoupload="false" desclabel="false">
+                    <label>Img</label>
+                    <value>/IGRP/images/IGRP/IGRP2.3/assets/img/tutorial/drop_field.png</value>
+                </img_1>
+            </fields>
+        </form_2>
+        <paragraph_4 type="paragraph" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <paragraph_4_text type="text" name="p_paragraph_4_text" persist="true" maxlength="4000">
+                    <value>
+                        <![CDATA[<ul><li>Form</li><li>Form List</li><li>Separator List</li><li>Table</li></ul>
+]]>
+                    </value>
+                </paragraph_4_text>
+            </fields>
+        </paragraph_4>
+    </content>
+    <blockly>
+        <imports></imports>
+        <xml>
+            <block type="controller" id="controller" x="388" y="13"></block>
+        </xml>
+    </blockly>
+</rows>

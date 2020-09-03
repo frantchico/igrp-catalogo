@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xsl" type="text/xsl"?>
+<rows>
+    <link_img>/IGRP/images/IGRP/IGRP2.3</link_img>
+    <title>Dummie XML prototype</title>
+    <site>
+        <welcome_note>Oba</welcome_note>
+        <footer_note>2019 - Copyright NOSI v.190711</footer_note>
+        <user_name>Hexagon</user_name>
+        <button type="specific">
+            <title>Sair</title>
+            <app>DUA</app>
+            <page />
+            <link>#</link>
+            <target>_self</target>
+            <img>exit.png</img>
+        </button>
+    </site>
+    <page>Group_components</page>
+    <app>catalogo_igrp</app>
+    <plsql>
+        <action>index</action>
+        <package_instance></package_instance>
+        <package_db>nosi.webapps.catalogo_igrp.pages</package_db>
+        <package_html>Group_components</package_html>
+        <table_name></table_name>
+        <with_replace>false</with_replace>
+        <with_label>false</with_label>
+        <with_biztalk>false</with_biztalk>
+        <dynamic_menu>false</dynamic_menu>
+        <copy_menu>false</copy_menu>
+        <package_copy_db />
+        <package_copy_html />
+        <preserve_url>webapps?r=igrp/page/preserveUrl&amp;p_id=204</preserve_url>
+    </plsql>
+    <slide-menu file="/IGRP/images/IGRP/IGRP2.3/xml/IGRP-slide-menu.xml?v=2" />
+    <top_menu file="/IGRP/images/IGRP/IGRP2.3/xml/IGRP-top_menu.xml?v=2" />
+    <content>
+        <title>Group Components and menu</title>
+        <box_1 type="box" xml-type="form" title="Box" gen-type="container" gen-group="">
+            <fields/>
+        </box_1>
+        <tabcontent_1 type="tabcontent" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <template_tab_default name="p_template_tab_default" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-bar-chart-o" refresh_submit="false" maxlength="50">
+                    <label>Template Tab Default</label>
+                    <value/>
+                </template_tab_default>
+                <segundo_return_11 name="p_segundo_return_11" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="true" iconColor="#333" iconClass="" img="fa-wheelchair-alt" refresh_submit="false" maxlength="50">
+                    <label>Segundo return</label>
+                    <value/>
+                </segundo_return_11>
+                <terceiro_tab_3 name="p_terceiro_tab_3" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-btc" refresh_submit="false" maxlength="50">
+                    <label>Terceiro Tab</label>
+                    <value/>
+                </terceiro_tab_3>
+            </fields>
+        </tabcontent_1>
+        <tabcontent_3 type="tabcontent" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <template_accordion name="p_template_accordion" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-bar-chart-o" refresh_submit="false" maxlength="50">
+                    <label>Template Accordion</label>
+                    <value/>
+                </template_accordion>
+                <segundo_return_13 name="p_segundo_return_13" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="true" iconColor="#333" iconClass="" img="fa-wheelchair-alt" refresh_submit="false" maxlength="50">
+                    <label>Segundo return</label>
+                    <value/>
+                </segundo_return_13>
+                <terceiro_tab name="p_terceiro_tab" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-btc" refresh_submit="false" maxlength="50">
+                    <label>Terceiro Tab</label>
+                    <value/>
+                </terceiro_tab>
+            </fields>
+        </tabcontent_3>
+        <panels_1 type="panels" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <button_1 name="p_panels_1_button_1" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-angle-right" refresh_submit="false" maxlength="50">
+                    <label>Panel Item 1</label>
+                    <value/>
+                </button_1>
+                <d2_painel name="p_d2_painel" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-angle-right" refresh_submit="false" maxlength="50">
+                    <label>2 Painel</label>
+                    <value/>
+                </d2_painel>
+                <acertou_3_panel name="p_acertou_3_panel" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-angle-right" refresh_submit="false" maxlength="50">
+                    <label>Acertou 3 panel</label>
+                    <value/>
+                </acertou_3_panel>
+            </fields>
+        </panels_1>
+        <toolsbar_2 type="toolsbar" xml-type="toolsbar" gen-type="menu" gen-group="">
+            <item type="specific" code="" rel="primero1">
+                <title>Primero</title>
+                <app>catalogo_igrp</app>
+                <page>Home</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>primary|fa-graduation-cap</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/home/Home.xml</preview>
+            </item>
+            <item type="specific" code="" rel="segundo">
+                <title>Segundo</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>warning|fa-font-awesome</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+            <item type="specific" code="" rel="terceiro">
+                <title>Terceiro</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>danger|fa-heartbeat</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+            <item type="specific" code="" rel="quarto_boton">
+                <title>Quarto boton</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>success|fa-bomb</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+        </toolsbar_2>
+        <treelist_1 type="treelist" xml-type="treelist" title="Treelist" gen-type="container" gen-group="true">
+            <fields>
+                <treelist_1_uid>Id</treelist_1_uid>
+                <treelist_1_title>Titulo</treelist_1_title>
+                <treelist_1_link>Link</treelist_1_link>
+                <treelist_1_target>Target</treelist_1_target>
+                <treelist_1_icon>Icon</treelist_1_icon>
+                <treelist_1_parent>Parent ID</treelist_1_parent>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <treelist_1_uid>tree_1</treelist_1_uid>
+                        <treelist_1_title>Tree 1</treelist_1_title>
+                        <treelist_1_link>204</treelist_1_link>
+                        <treelist_1_target>_blank</treelist_1_target>
+                        <treelist_1_icon>fa-arrow-circle-left</treelist_1_icon>
+                        <treelist_1_parent/>
+                    </row>
+                    <row>
+                        <treelist_1_uid>button_tree_2</treelist_1_uid>
+                        <treelist_1_title>Button tree 2</treelist_1_title>
+                        <treelist_1_link>204</treelist_1_link>
+                        <treelist_1_target>_blank</treelist_1_target>
+                        <treelist_1_icon>fa-circle</treelist_1_icon>
+                        <treelist_1_parent/>
+                    </row>
+                </value>
+            </table>
+        </treelist_1>
+        <treemenu_1 type="treemenu" xml-type="table" title="Treemenu" gen-type="container" gen-group="true">
+            <fields>
+                <treemenu_1_link type="link" maxlength="4000" target="_self" desc="true">
+                    <label>Link</label>
+                </treemenu_1_link>
+                <treemenu_1_tmid type="text">
+                    <label>ID</label>
+                </treemenu_1_tmid>
+                <treemenu_1_parent type="number" java-type="Integer">
+                    <label>Parent ID</label>
+                </treemenu_1_parent>
+                <treemenu_1_icon type="text">
+                    <label>Icon</label>
+                </treemenu_1_icon>
+                <treemenu_1_child type="text">
+                    <label>Has child value(0/X)</label>
+                </treemenu_1_child>
+                <treemenu_1_active type="text">
+                    <label>Is Active value(true/false)</label>
+                </treemenu_1_active>
+            </fields>
+            <table>
+                <value>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 1</treemenu_1_link_desc>
+                        <treemenu_1_tmid>1</treemenu_1_tmid>
+                        <treemenu_1_parent/>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 2</treemenu_1_link_desc>
+                        <treemenu_1_tmid>2</treemenu_1_tmid>
+                        <treemenu_1_parent>1</treemenu_1_parent>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 3</treemenu_1_link_desc>
+                        <treemenu_1_tmid>3</treemenu_1_tmid>
+                        <treemenu_1_parent>1</treemenu_1_parent>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 4</treemenu_1_link_desc>
+                        <treemenu_1_tmid>4</treemenu_1_tmid>
+                        <treemenu_1_parent>3</treemenu_1_parent>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 5</treemenu_1_link_desc>
+                        <treemenu_1_tmid>5</treemenu_1_tmid>
+                        <treemenu_1_parent/>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 6</treemenu_1_link_desc>
+                        <treemenu_1_tmid>6</treemenu_1_tmid>
+                        <treemenu_1_parent>5</treemenu_1_parent>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 7</treemenu_1_link_desc>
+                        <treemenu_1_tmid>7</treemenu_1_tmid>
+                        <treemenu_1_parent/>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                    <row>
+                        <treemenu_1_link>#</treemenu_1_link>
+                        <treemenu_1_link_desc> Menu 8</treemenu_1_link_desc>
+                        <treemenu_1_tmid>8</treemenu_1_tmid>
+                        <treemenu_1_parent>7</treemenu_1_parent>
+                        <treemenu_1_icon/>
+                        <treemenu_1_child/>
+                        <treemenu_1_active/>
+                    </row>
+                </value>
+            </table>
+        </treemenu_1>
+        <verticalmenu_1 type="verticalmenu" xml-type="verticalmenu" title="Verticalmenu" gen-type="menu" gen-group="">
+            <item type="specific" code="" rel="primeiro">
+                <title>Primeiro</title>
+                <app>catalogo_igrp</app>
+                <page>Components_that_need_fields</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>danger|fa-file-movie-o</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/components_that_need_fields/Components_that_need_fields.xml</preview>
+            </item>
+            <item type="specific" code="" rel="segundovertical">
+                <title>SegundoVertical</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>success|fa-braille</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+            <item type="specific" code="" rel="verticalmenu_1_button_1">
+                <title>Button</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>primary|fa-angle-right</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+        </verticalmenu_1>
+        <tabcontent_2 type="tabcontent" xml-type="form" gen-type="container" gen-group="">
+            <fields>
+                <template_navbar name="p_template_navbar" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-bar-chart-o" refresh_submit="false" maxlength="50">
+                    <label>Template NavBar</label>
+                    <value/>
+                </template_navbar>
+                <segundo_return_1 name="p_segundo_return_1" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="true" iconColor="#333" iconClass="" img="fa-wheelchair-alt" refresh_submit="false" maxlength="50">
+                    <label>Segundo return</label>
+                    <value/>
+                </segundo_return_1>
+                <terceiro_tab_1 name="p_terceiro_tab_1" type="button" request_fields="" target_fields="" closerefresh="false" custom_return="false" iconColor="#333" iconClass="" img="fa-btc" refresh_submit="false" maxlength="50">
+                    <label>Terceiro Tab</label>
+                    <value/>
+                </terceiro_tab_1>
+            </fields>
+        </tabcontent_2>
+        <toolsbar_1 type="toolsbar" xml-type="toolsbar" gen-type="menu" gen-group="">
+            <item type="specific" code="" rel="toolbar_button_1">
+                <title>Toolbar button 1</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>primary|fa-youtube-play</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+            <item type="specific" code="" rel="tools_button_2">
+                <title>Tools button 2</title>
+                <app>catalogo_igrp</app>
+                <page>Group_components</page>
+                <link>index</link>
+                <target>_blank</target>
+                <img>primary|fa-paypal</img>
+                <preview>/IGRP/images/IGRP/IGRP2.3/app/catalogo_igrp/group_components/Group_components.xml</preview>
+            </item>
+        </toolsbar_1>
+    </content>
+</rows>
